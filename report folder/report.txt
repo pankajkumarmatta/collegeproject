@@ -1,0 +1,20 @@
+ProjectStartView.java is the main class to start the execution.
+
+I have created 2 packges.
+1. business components
+2. visible components
+
+Visiblecomponents packge is dediated to contain the swing elements used to make the UI.
+businesscomponents package is the one to make the end to end business logic.
+
+User is differentiated at Authentication.
+User object contains the attributes ( isAdmin , isFaculty, isStudent) to understand if the loggedInUser type.
+
+Student can register.
+With those credentials he can immdiately login to the system.
+
+Faculty member will be created by SuperAdmin.
+He can see all student details and other stuff related to the college.
+
+A SuperAdmin can do all admin related operations including
+creating a new branch, add students marks, add student fee details, exam/assignment schedule are part of SuperAdmin.
